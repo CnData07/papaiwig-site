@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="毛娘派派 —— 给毛娘、假发造型师用的订单事务管理 App。技术支持与常见问题。">
+<meta name="color-scheme" content="light dark">
+<title>技术支持 · 毛娘派派</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="wrap">
+
+  <header class="hero">
+    <div class="logo" aria-hidden="true">毛</div>
+    <div class="hero-text">
+      <h1>毛娘派派</h1>
+      <p class="sub">假发造型的订单与排期管理 · 技术支持</p>
+    </div>
+  </header>
+
+  <p class="lead">
+    手上接了哪些单、做到哪一步、什么时候要交 —— 一屏看清。
+    使用中遇到问题、发现 bug，或者想提个新需求，都欢迎直接发邮件给我。
+  </p>
+
+  <div class="card contact">
+    <span class="label">联系邮箱</span>
+    <span class="value"><a href="mailto:data07@126.com">data07@126.com</a></span>
+    <span class="label">（一般 1–2 个工作日内回复）</span>
+  </div>
+
+  <p class="lead" style="font-size:14.5px;">
+    发邮件时如果方便，附上这几样会快很多：<strong>你的 iPhone 机型与系统版本</strong>、
+    <strong>出问题的那一步</strong>（哪个页面、点了什么）、<strong>截图</strong>。
+  </p>
+
+  <h2>常见问题</h2>
+
+  <details>
+    <summary>我的数据存在哪里？会不会丢？</summary>
+    <div class="body">
+      <p>
+        数据默认保存在<strong>你自己的手机本地</strong>。如果你登录了 iCloud 并开启了同步，
+        还会同时保存在<strong>你本人 iCloud 的私有空间</strong>里。
+      </p>
+      <p>
+        我没有服务器、拿不到你的任何数据（详见
+        <a href="privacy.html">隐私政策</a>）。也正因如此，<strong>建议你定期做一次导出备份</strong> ——
+        手机丢了、换机、误操作清空时，备份就是唯一的取回路径。
+      </p>
+      <p>路径：<strong>我的 → 设置 → 导出 / 备份</strong>，可以导出 CSV 表格或 JSON 原始数据。</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>iCloud 同步没生效，设置里显示「仅本机」</summary>
+    <div class="body">
+      <p>按顺序检查这几项：</p>
+      <ul>
+        <li>iPhone 上<strong>已登录 iCloud</strong>（系统设置 → 你的名字）</li>
+        <li>系统设置 → 你的名字 → <strong>iCloud → 云盘（iCloud Drive）已打开</strong></li>
+        <li>系统设置 → 你的名字 → iCloud → <strong>「毛娘派派」的开关是打开的</strong></li>
+        <li>网络通畅（同步要联网；飞行模式下只走本机）</li>
+      </ul>
+      <p>
+        都正常的话，等几分钟会自动同步。若仍显示「仅本机」，把 App 从后台划掉重开一次；
+        还是不行就发邮件给我，附上设置页那张截图的「同步」一栏。
+      </p>
+      <p><strong>注意：</strong>不同设备上的数据要合并，前提是两边都登录了<strong>同一个 Apple ID</strong>。</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>买过 Pro，换手机 / 重装之后怎么恢复？</summary>
+    <div class="body">
+      <p>
+        买断是记在<strong>你的 Apple ID</strong> 上的，不会丢。新设备上用同一个 Apple ID 登录后：
+      </p>
+      <p>
+        打开 <strong>我的 → 升级派派 Pro</strong>，点页面下方的
+        <strong>「已经买过了？恢复购买」</strong> 即可，不需要再付一次钱。
+      </p>
+      <p>
+        如果点了没反应，先确认设备已登录 App Store 账号、网络正常，然后重开 App 再试一次。
+      </p>
+    </div>
+  </details>
+
+  <details>
+    <summary>免费版能建多少单？兑换码怎么用？</summary>
+    <div class="body">
+      <p>
+        免费版<strong>同时在做的（进行中）订单</strong>最多 <strong>30 单</strong>。
+        注意这个上限只统计「进行中」—— 做完归档成「已完成」的单不再占额度，
+        所以单子越攒越多也不会被锁死。
+      </p>
+      <p>
+        另外，<strong>它只限制「新建」，不会回收你已经有的任何数据</strong>：
+        超出上限时只是拦下新建动作，手上的单照旧，进度、金额、排期都不动。
+      </p>
+      <p>
+        想要更高的上限，可以进 <strong>QQ 粉丝群 953282953</strong> 领一枚兑换码，
+        在 <strong>我的 → 设置 → 兑换码</strong> 里输入即可。兑换码只提高免费额度上限，
+        不赠送 Pro 权益；一次性买断 Pro 则完全不设上限。
+      </p>
+    </div>
+  </details>
+
+  <details>
+    <summary>交期提醒没有响？</summary>
+    <div class="body">
+      <p>交期提醒是<strong>本地通知</strong>，需要系统授权。检查：</p>
+      <ul>
+        <li>系统设置 → <strong>通知 → 毛娘派派</strong> → 允许通知，且没被设成「静音」</li>
+        <li>系统设置 → 专注模式 / 勿扰模式是否正在拦截</li>
+        <li>订单上是否填了<strong>交付日期</strong>（没填日期就不会有提醒）</li>
+      </ul>
+      <p>提醒默认在交期前几天和交期当天早上 9:00 各来一次。</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>订单建错了，能删掉吗？</summary>
+    <div class="body">
+      <p>
+        没有「删除」，只有<strong>「取消订单」</strong>—— 这是有意的：
+        订单就是你的账，删掉容易对不上。取消后记录仍在，随时能改回任何状态。
+      </p>
+      <ul>
+        <li>在订单列表<strong>右滑</strong> → 「取消订单」</li>
+        <li>或进订单详情 → 右上角 <strong>⋯ → 取消订单</strong></li>
+        <li>取消后可以在「已取消」筛选里找到它，改回其它状态</li>
+      </ul>
+    </div>
+  </details>
+
+  <details>
+    <summary>怎么把数据彻底清掉？</summary>
+    <div class="body">
+      <p>
+        App 内：<strong>我的 → 设置 → 清空数据</strong>。清空前 App 会自动在本地留一份 JSON 快照
+        （可在「导出 / 备份」里取回），清空会同步到 iCloud 上的所有设备。
+      </p>
+      <p>
+        想连 iCloud 上的副本一起删除：系统设置 → 你的名字 → iCloud →
+        管理账户存储 → 选中「毛娘派派」→ 删除数据。
+      </p>
+      <p>卸载 App 只会清掉本机数据，iCloud 上的那份需要按上一段单独删除。</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>App 需要什么系统版本？</summary>
+    <div class="body">
+      <p>
+        需要 <strong>iOS 17.0 或更高版本</strong>，目前仅支持 iPhone 竖屏，界面语言为简体中文。
+      </p>
+    </div>
+  </details>
+
+  <h2>其它</h2>
+  <p class="lead">
+    我如何处理你的数据，请看 <a href="privacy.html">隐私政策</a>。
+  </p>
+
+  <nav class="topnav">
+    <a href="privacy.html">隐私政策 →</a>
+  </nav>
+
+  <footer>
+    <span>毛娘派派</span>
+    <span class="fill"></span>
+    <span>App 备案号：蜀ICP备2026015535号-3A</span>
+    <span>更新于 2026-10-10</span>
+  </footer>
+
+</main>
+</body>
+</html>
